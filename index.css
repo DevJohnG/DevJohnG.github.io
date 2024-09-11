@@ -1,0 +1,221 @@
+/*STYLE HEADER*/
+
+header {
+    background-image: url('HeaderBackground.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 40px;
+}
+
+body{
+    background-color: black;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+}
+
+.linkCV {
+    color: #FF5B5B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold
+}
+
+/*------------------ STYLE DATOS PERSONALES ------------------*/
+
+.personalInfo{
+    text-align: center;
+   /* border-bottom: 1px solid #a3a3a3;*/
+    padding: 20px 10px;
+}
+
+/*------------------ STYLE BODY ------------------*/
+
+body{
+    background-image: url("Fondorallas.png");
+}
+
+/*------------------ STYLE CONTENEDOR BODY ------------------*/
+
+.fondoBody {
+    background-color: rgba(71, 71, 71, 0.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/*------------------ STYLE SOBRE MÍ Y APTITUDES ------------------*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* border-bottom: 1px solid #a3a3a3;*/
+    padding: 20px 100px;
+}
+
+.sobreMi {
+    width: 50%;
+    text-align: center;
+    padding: 10px 20px;
+    background-image: url('HeaderBackground.png');
+    color: white;
+    border-radius: 15px;
+}
+
+.aptiCont{
+    display: flex;
+    text-align: justify;
+}
+
+.fondoBody img{
+    filter: invert();
+}
+
+
+.tituApti {
+    align-items: center;
+    justify-content: center;
+}
+
+.aptitudes {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/*------------------ STYLE EXPERIENCIA ------------------*/
+
+.exp {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   /* border-bottom: 1px solid #a3a3a3;*/
+}
+
+.exp div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp h2{
+    padding: 0px 20px;
+}
+
+.exp img{
+    padding: 0px 20px;
+}
+
+.exp li{
+    padding: 10px 40px;
+}
+
+/*------------------ STYLE EDUCACIÓN ------------------*/
+
+.edu{
+background-image: url('HeaderBackground.png');
+padding: 50px;
+margin: 30px;
+border-radius: 15px;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.edu aside{
+    margin: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.edu div{
+    margin: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+
+
+/*------------------ STYLE CONOCIMIENTOS ------------------*/
+
+.conoci{
+text-align: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+.conoci section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.conoci div{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.conoci li{
+    text-align: start;
+}
+
+/*------------------ STYLE EMPLEABILIDAD ------------------*/
+
+.emple{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/*------------------ FOOTER ------------------*/
+
+footer{
+    padding: 50px;
+    background-image: url("HeaderBackground.png");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer div{
+    padding: 0px 25px;
+}
+
+footer img{
+    padding: 0px 10px;
+    width: 25px;
+    height: 25px;
+}
+
+footer a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+}
+
